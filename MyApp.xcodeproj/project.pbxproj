@@ -38,6 +38,7 @@
 		40FC3C0A1548B1EF007503CD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FC3C091548B1EF007503CD /* MainViewController.m */; };
 		40FC3C0C1548B1EF007503CD /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40FC3C0B1548B1EF007503CD /* MainViewController.xib */; };
 		40FC3C101548B1EF007503CD /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = 40FC3C0F1548B1EF007503CD /* verify.sh */; };
+		40FC3C171548B26B007503CD /* www in Resources */ = {isa = PBXBuildFile; fileRef = 40FC3C161548B26B007503CD /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,10 +56,10 @@
 		40FC3BD21548B1EF007503CD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		40FC3BD41548B1EF007503CD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		40FC3BD61548B1EF007503CD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		40FC3BDA1548B1EF007503CD /* MyApp-Info.plist */ = {isa = PBXFileReference; path = "MyApp-Info.plist"; sourceTree = "<group>"; };
+		40FC3BDA1548B1EF007503CD /* MyApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyApp-Info.plist"; sourceTree = "<group>"; };
 		40FC3BDC1548B1EF007503CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40FC3BDE1548B1EF007503CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		40FC3BE01548B1EF007503CD /* MyApp-Prefix.pch */ = {isa = PBXFileReference; path = "MyApp-Prefix.pch"; sourceTree = "<group>"; };
+		40FC3BE01548B1EF007503CD /* MyApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyApp-Prefix.pch"; sourceTree = "<group>"; };
 		40FC3BE11548B1EF007503CD /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		40FC3BE61548B1EF007503CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		40FC3BEA1548B1EF007503CD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -71,13 +72,14 @@
 		40FC3BFE1548B1EF007503CD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		40FC3C001548B1EF007503CD /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		40FC3C021548B1EF007503CD /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		40FC3C051548B1EF007503CD /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		40FC3C051548B1EF007503CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		40FC3C061548B1EF007503CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		40FC3C081548B1EF007503CD /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		40FC3C081548B1EF007503CD /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		40FC3C091548B1EF007503CD /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		40FC3C0B1548B1EF007503CD /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		40FC3C0E1548B1EF007503CD /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		40FC3C0E1548B1EF007503CD /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		40FC3C0F1548B1EF007503CD /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		40FC3C161548B26B007503CD /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		40FC3BAC1548B1EF007503CD = {
 			isa = PBXGroup;
 			children = (
+				40FC3C161548B26B007503CD /* www */,
 				40FC3BD81548B1EF007503CD /* MyApp */,
 				40FC3BBD1548B1EF007503CD /* Frameworks */,
 				40FC3BBB1548B1EF007503CD /* Products */,
@@ -329,6 +332,7 @@
 				40FC3C031548B1EF007503CD /* Cordova.plist in Resources */,
 				40FC3C0C1548B1EF007503CD /* MainViewController.xib in Resources */,
 				40FC3C101548B1EF007503CD /* verify.sh in Resources */,
+				40FC3C171548B26B007503CD /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +546,7 @@
 				40FC3C151548B1EF007503CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
